@@ -38,7 +38,7 @@ public class SQLConnection {
 		if ("sqlserver".equals(DBType)) {
 			return getSqlServerConn(url, port, user, password);
 		}
-		return null;
+		return null; 
 	}
 
 	public static void closeConn(Connection conn) {
